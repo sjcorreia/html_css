@@ -1,6 +1,6 @@
-* {
+/** {
     border: 1px solid red !important;
-}
+}*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -12,12 +12,13 @@
 /*Apply the fony family to everything on the page*/
 * {
     /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /*background-color: #c6bcb6;*/
 }
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 960px;
     width: 100%;
 }
 
@@ -26,6 +27,10 @@
         background-color: blue;
         /*display: none;*/
     }
+}
+
+.app_image {
+    width: 100%;
 }
 
 .row {
