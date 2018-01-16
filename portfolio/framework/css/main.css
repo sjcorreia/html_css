@@ -1,6 +1,6 @@
-/** {
+* {
     border: 1px solid red !important;
-}*/
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -28,6 +28,10 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 @media only screen and (max-width: 500px) and (orientation: landscape) {
     p {
         background-color: blue;
@@ -48,13 +52,21 @@ div img {
 
 .logo {
     margin: 1em;
-    max-height: 120px;
-    max-width: 120px;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_header {
+    width: 100%;
+    max-height: 180px;
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
 }
